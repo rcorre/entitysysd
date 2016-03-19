@@ -85,7 +85,7 @@ public:
     }
 
     /**
-     * Destroy the entity.
+     * Destroy the entity and unregister all attached components.
      *
      * Throws: EntityException if the entity is invalid.
      */
